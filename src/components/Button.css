@@ -1,0 +1,28 @@
+button {
+  border: none;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+
+.on_off {
+  color: orange;
+}
+
+.clear {
+  color: red;
+}
+
+.clear:disabled, .number:disabled{
+  color: white;
+}
+
+.aritmatic {
+  color: white;
+  background-color: gray;
+}
+
+.aritmatic:disabled {
+  color: black;
+}
